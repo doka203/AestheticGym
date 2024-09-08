@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="tablet.css" rel="stylesheet" media="screen and (min-width: 601px)">
+  <link href="desktop.css" rel="stylesheet" media="screen and (min-width: 992px)">
+  <title>AestheticGym</title>
+  <script>
+    function alteraModal(classe) {
+      document.getElementById("modal").setAttribute("class", classe)
+      document.getElementById("overlay").setAttribute("class", classe)
+    }
+  </script>
+</head>
+
+<body>
+
+  <header class="headerHome">
+    <h1>AestheticGym</h1>
+    <nav>
+      <button onclick="alteraModal('on')">
+        <img src="./images/sair.png" alt="sair" />
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="rotina">
+      <div class="top">
+        <div class="left">
+          <h2>Titulo</h2>
+        </div>
+        <div class="right">
+          <a>
+            <img src="./images/excluir.png" alt="menu" />
+          </a>
+        </div>
+      </div>
+      <div class="bottom">
+        <table>
+          <thead>
+            <tr>
+              <th>Exercícios</th>
+              <th>Séries</th>
+              <th>Repetições</th>
+              <th>Carga</th>
+              <th>Descanso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="text"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+            </tr>
+            <tr>
+              <td><input type="text"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+              <td><input type="number"></td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="addLinha"> Adicionar linha</button>
+      </div>
+    </div>
+
+    <div>
+      <button class="addTable" id="adicionar" onclick="novaTabela()">Adicionar</button>
+    </div>
+
+    <nav class="acoes">
+      <ul>
+        <!--<li><a href="exercicios.html">
+                  <img src="./images/exercicios.png" alt="Lista de exercicios">
+                  Exercícios</a></li>-->
+        <li><a href="home.html">
+            <img src="./images/treino.png" alt="Rotinas de treino">
+            Home</a></li>
+        <li><a href="cronometro.html">
+            <img src="./images/cronometro.png" alt="Cronometro">
+            Cronômetro</a></li>
+      </ul>
+    </nav>
+
+    <dialog id="modal" class="off" open>
+      <span>Você tem certeza que deseja sair?</span>
+      <div class="button-modal">
+        <button class="button-modal-sim" onclick="location.href='landing.html'">Sim</button>
+        <button class="button-modal-nao" onclick="alteraModal('off')">Não</button>
+      </div>
+    </dialog>
+    <div id="overlay"></div>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Caetano Louzada e Pedro Augusto</p>
+  </footer>
+
+  <script src="./scriptAdd.js"></script>
+
+</body>
+
+</html>

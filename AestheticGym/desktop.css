@@ -1,0 +1,157 @@
+header h1 {
+  font-size: 3rem;
+}
+
+#slogan {
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
+iframe {
+  display: inline;
+  margin-top: 50px;
+}
+
+#loginCadastro a {
+  font-size: 2rem;
+}
+
+#cadastro {
+  border: 3px solid orange;
+}
+
+form {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 300px;
+}
+
+form > div {
+  padding: 2%;
+}
+
+form div label {
+  font-size: 1.5rem;
+}
+
+form input {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.divEntrar {
+  position: static;
+}
+
+.entrar {
+  font-size: 1.5rem;
+}
+
+#fileProgress {
+  height: 15px;
+}
+
+#manter_conectado input {
+  margin-left: 30px;
+}
+
+input#lembrar {
+  width: 10px;
+  height: 10px;
+}
+
+#motivacao {
+  display: inline;
+}
+
+.headerHome img {
+  width: 32px;
+}
+
+#modal.on span {
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.button-modal-sim {
+  font-size: 2rem;
+}
+
+.button-modal-nao {
+  font-size: 2rem;
+}
+
+ol.lista-rotina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ol.lista-rotina > li {
+  width: calc(50% - 20px);
+  margin-bottom: 10px;
+}
+
+.rotina {
+  width: min-content;
+}
+
+.rotina .top .left h2 {
+  font-size: 2rem;
+}
+
+.rotina .bottom th {
+  font-size: 1.5rem;
+}
+
+.rotina .bottom td input {
+  font-size: 1.5rem;
+}
+
+.add {
+  bottom: 120px;
+  right: 60px;
+}
+
+.add a img {
+  width: 60px;
+  height: 60px;
+}
+
+nav.acoes li a img {
+  width: 36px;
+}
+
+nav.acoes li a {
+  font-size: 1.5rem;
+}
+
+#addLinha {
+  font-size: 1.5rem;
+}
+
+#cronoContar {
+  font-size: 7rem;
+}
+
+#cronoButton {
+  bottom: 100px;
+}
+
+#cronoButton button {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.mostrarSenha {
+  width: 2rem;
+  height: 2rem;
+}
+
+.esconderSenha {
+  width: 2rem;
+  height: 2rem;
+}

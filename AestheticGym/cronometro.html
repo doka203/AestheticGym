@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="tablet.css"
+      rel="stylesheet"
+      media="screen and (min-width: 601px)"
+    />
+    <link
+      href="desktop.css"
+      rel="stylesheet"
+      media="screen and (min-width: 992px)"
+    />
+    <title>AestheticGym</title>
+    <script>
+      function alteraModal(classe) {
+        document.getElementById("modal").setAttribute("class", classe);
+        document.getElementById("overlay").setAttribute("class", classe);
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="headerHome">
+      <h1>AestheticGym</h1>
+      <nav>
+        <button onclick="alteraModal('on')">
+          <img src="./images/sair.png" alt="sair" />
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div id="cronometro">
+        <span id="cronoContar">00:00:00</span>
+        <div id="cronoButton">
+          <button id="cronoLigar" onclick="iniciar()">Iniciar</button>
+          <button id="cronoPausar" onclick="pausar()">Pausar</button>
+          <button id="cronoResetar" onclick="resetar()">Resetar</button>
+          <button id="cronoFinalizar" onclick="finalizar()">Finalizar</button>
+        </div>
+      </div>
+
+      <div id="temposAnteriores">
+        <h2>Tempos Anteriores</h2>
+      </div>
+
+      <nav class="acoes">
+        <ul>
+          <!--<li><a href="exercicios.html">
+            <img src="./images/exercicios.png" alt="Lista de exercicios">
+            Exercícios</a></li>-->
+          <li>
+            <a href="home.html">
+              <img src="./images/treino.png" alt="Rotinas de treino" />
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="cronometro.html">
+              <img src="./images/cronometro.png" alt="Cronometro" />
+              Cronômetro</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <dialog id="modal" class="off" open>
+        <span>Você tem certeza que deseja sair?</span>
+        <div class="button-modal">
+          <button
+            class="button-modal-sim"
+            onclick="location.href='landing.html'"
+          >
+            Sim
+          </button>
+          <button class="button-modal-nao" onclick="alteraModal('off')">
+            Não
+          </button>
+        </div>
+      </dialog>
+      <div id="overlay"></div>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Caetano Louzada e Pedro Augusto</p>
+    </footer>
+
+    <script src="./cronometro.js"></script>
+  </body>
+</html>

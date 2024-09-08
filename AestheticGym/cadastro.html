@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="tablet.css"
+      rel="stylesheet"
+      media="screen and (min-width: 601px)"
+    />
+    <link
+      href="desktop.css"
+      rel="stylesheet"
+      media="screen and (min-width: 992px)"
+    />
+    <title>AestheticGym</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><a class="landing" href="landing.html">AestheticGym</a></h1>
+    </header>
+
+    <main>
+      <form action="./login.html" class="form">
+        <div>
+          <label for="nome">Nome de usuário</label>
+          <input id="nome" type="text" />
+        </div>
+        <div>
+          <label for="data">Data de nascimento</label>
+          <input id="data" type="date" />
+        </div>
+        <!--<div>
+            <input type="text" placeholder="hh:mm" onfocus="this.type='time'" onblur="if (!this.value) this.type='text'">
+            <input type="text" placeholder="DD/MM/YYYY" onfocus="this.type='date'"
+              onblur="if (!this.value) this.type='text'">
+          </div> Implementar quando for usar JS, ele deixa com input text para alterar a propriedade placeholder,
+          mas altera para date ao interagir-->
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
+        <div>
+          <label for="senha">Senha</label>
+          <input id="senha" type="password" />
+          <div class="progresso">
+            <progress id="fileProgress" value="50" max="100"></progress>
+          </div>
+        </div>
+        <div class="divEntrar">
+          <input class="entrar" type="submit" value="Cadastrar" />
+        </div>
+        <h2 id = "mensagemConfirmacao" ></h2>
+      </form>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Caetano Louzada e Pedro Augusto</p>
+    </footer>
+    <script src="./scriptCadastro.js"></script>
+  </body>
+</html>

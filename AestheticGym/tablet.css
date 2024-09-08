@@ -1,0 +1,121 @@
+header h1 {
+  font-size: 5rem;
+}
+
+#slogan {
+  font-size: 3rem;
+  margin-top: 300px;
+}
+
+#loginCadastro a {
+  font-size: 3rem;
+}
+
+#cadastro {
+  border: 3px solid orange;
+}
+
+form div label {
+  font-size: 3rem;
+}
+
+form input {
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.entrar {
+  font-size: 3rem;
+}
+
+#fileProgress {
+  height: 35px;
+}
+
+#manter_conectado input {
+  margin-left: 30px;
+}
+
+input#lembrar {
+  width: 20px;
+  height: 20px;
+}
+
+.headerHome img {
+  width: 48px;
+}
+
+#modal.on span {
+  margin-bottom: 50px;
+  font-size: 4rem;
+}
+
+.button-modal-sim {
+  font-size: 3rem;
+}
+
+.button-modal-nao {
+  font-size: 3rem;
+}
+
+.rotina .top .left h2 {
+  font-size: 3rem;
+}
+
+.rotina .bottom th {
+  font-size: 2.5rem;
+}
+
+.rotina .bottom td input {
+  font-size: 2rem;
+}
+
+.add {
+  bottom: 120px;
+  right: 60px;
+}
+
+.add a img {
+  width: 60px;
+  height: 60px;
+}
+
+nav.acoes li a img {
+  width: 36px;
+}
+
+nav.acoes li a {
+  font-size: 2rem;
+}
+
+#addLinha {
+  font-size: 2rem;
+}
+
+#cronoContar {
+  font-size: 7rem;
+}
+
+#cronoButton {
+  bottom: 100px;
+}
+
+#cronoButton button {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+#temposAnteriores {
+  position: fixed;
+  height: 100rem;
+  width: 20rem;
+  color: white;
+}
+
+#temposAnteriores h2 {
+  font-size: 2rem;
+}
+
+#temposAnteriores p {
+  font-size: 2rem;
+}

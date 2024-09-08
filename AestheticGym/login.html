@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="tablet.css"
+      rel="stylesheet"
+      media="screen and (min-width: 601px)"
+    />
+    <link
+      href="desktop.css"
+      rel="stylesheet"
+      media="screen and (min-width: 992px)"
+    />
+    <title>AestheticGym</title>
+  </head>
+
+  <body>
+    <header>
+      <h1><a class="landing" href="landing.html">AestheticGym</a></h1>
+    </header>
+
+    <main>
+      <form action="#" class="form">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="text" />
+        </div>
+        <div>
+          <label for="senha">Senha</label>
+          <div class="inputSenha">
+            <input id="senha" type="password"/>
+            <div id = "visibilidadeSenha" onclick="trocarVisibilidade()" class="mostrarSenha"></div>
+          </div>
+        </div>
+        <div id="manter_conectado">
+          <label for="lembrar">Lembrar credenciais</label>
+          <input id="lembrar" type="checkbox" />
+        </div>
+        <div id="motivacao">
+          <label for="motivo">Quanto é a sua motivação hoje?</label>
+          <input id="motivo" type="range" />
+        </div>
+        <button class="divEntrar" id="botaoLogin">
+          <input class="entrar" type="submit" value="Entrar" />
+        </button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Caetano Louzada e Pedro Augusto</p>
+    </footer>
+
+    <script src="./scriptLogin.js"></script>
+  </body>
+</html>
