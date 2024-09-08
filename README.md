@@ -1,5 +1,5 @@
+![Capa AestheticGym](https://github.com/user-attachments/assets/c6f81daf-91de-46a1-a905-ac3712101698)
 
-![Capa do Projeto](https://github.com/user-attachments/assets/d449d8ca-eab3-4724-9733-e1013041d298)
 
 <h1 align="center" id="titulo-img-capa">AestheticGym</h1>
 
@@ -33,13 +33,15 @@ Não possui um executável, a instalação e uso deverá ser feita utilizando do
 <div align="center">
 </br>
 </br>
-  
-![landing_projeto](https://github.com/user-attachments/assets/f25b7195-9ab3-41e6-9cf4-9f5a89bbb88b)
-![cadastrar_projeto](https://github.com/user-attachments/assets/eb89c71a-1add-40bd-8a76-fd9e275c07f5)
-![login_projeto](https://github.com/user-attachments/assets/87c1e00f-45ca-4490-a6a0-4a89835d3f1a)
-![home_projeto](https://github.com/user-attachments/assets/4d6b4f4f-ebf4-4a76-a4d3-d4811c88ca5e)
-![add_projeto](https://github.com/user-attachments/assets/81a999ec-363e-47de-8cf1-4da6a8fd1511)
-![cronometro_projeto](https://github.com/user-attachments/assets/a618f321-7c02-4f2d-b6b6-9c1cb894af74)
+
+![landing_projeto](https://github.com/user-attachments/assets/4ecbb7b2-e7c4-440a-9586-0472d7bc6544)
+![cadastrar_projeto](https://github.com/user-attachments/assets/60c5faef-de98-447d-ab9b-3efd994cdd36)
+![login_projeto](https://github.com/user-attachments/assets/5aa681a9-0a4a-4925-9c25-b9d57751955a)
+![home_projeto](https://github.com/user-attachments/assets/f0af6373-a9bd-455f-b0a9-1be574c84dac)
+![add_projeto](https://github.com/user-attachments/assets/6734b4a4-287e-4732-b557-5e1a802f96b6)
+![cronometro_projeto](https://github.com/user-attachments/assets/557448fb-3e65-4c1b-92f0-f186559cdbd9)
+
+
 
 </div>
 
